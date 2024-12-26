@@ -1,0 +1,32 @@
+# Rust
+/target/
+
+# Web
+web/node_modules/
+web/pkg/
+web/examples/
+dist/
+
+# Tests and coverage
+coverage/
+test-results/
+playwright-report/
+playwright/.cache/
+
+# Soak and reports
+/reports/
+*.log
+.docs-tmp/
+
+# Environment and local overrides
+.env
+.env.*
+*.local
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Working document — never commit
+/live-form.md
