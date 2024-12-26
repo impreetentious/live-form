@@ -1,0 +1,26 @@
+[package]
+name = "st-cli"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+rust-version.workspace = true
+
+[[bin]]
+name = "stitch"
+path = "src/main.rs"
+
+[dependencies]
+st-syntax = { path = "../st-syntax" }
+st-bytecode = { path = "../st-bytecode" }
+st-heap = { path = "../st-heap" }
+st-vm = { path = "../st-vm" }
+clap.workspace = true
+env_logger.workspace = true
+log.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+
+[lints]
+workspace = true

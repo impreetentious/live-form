@@ -1,0 +1,24 @@
+[package]
+name = "st-web"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+rust-version.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+st-heap = { path = "../st-heap" }
+st-vm = { path = "../st-vm" }
+console_log.workspace = true
+js-sys.workspace = true
+log.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+wasm-bindgen.workspace = true
+
+[lints]
+workspace = true

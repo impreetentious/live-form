@@ -1,0 +1,19 @@
+[package]
+name = "st-vm"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+publish = false
+rust-version.workspace = true
+
+[dependencies]
+st-syntax = { path = "../st-syntax" }
+st-bytecode = { path = "../st-bytecode" }
+st-heap = { path = "../st-heap" }
+libm.workspace = true
+thiserror.workspace = true
+log.workspace = true
+
+[lints]
+workspace = true
