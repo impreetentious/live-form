@@ -296,7 +296,7 @@ dependencies = [
 
 [[package]]
 name = "st-bytecode"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "log",
  "st-syntax",
@@ -305,7 +305,7 @@ dependencies = [
 
 [[package]]
 name = "st-cli"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "clap",
  "env_logger",
@@ -320,7 +320,7 @@ dependencies = [
 
 [[package]]
 name = "st-heap"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "log",
  "thiserror",
@@ -328,7 +328,7 @@ dependencies = [
 
 [[package]]
 name = "st-syntax"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "log",
  "thiserror",
@@ -336,7 +336,7 @@ dependencies = [
 
 [[package]]
 name = "st-vm"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "libm",
  "log",
@@ -348,7 +348,7 @@ dependencies = [
 
 [[package]]
 name = "st-web"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "console_log",
  "js-sys",
