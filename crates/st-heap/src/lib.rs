@@ -1,7 +1,9 @@
 //! Heap values, handles, and collectors.
 
 mod arena;
+mod compact;
 mod error;
+mod gc;
 mod object;
 mod shape;
 mod stats;
@@ -9,7 +11,9 @@ mod table;
 mod value;
 
 pub use arena::{Arena, PAGE_BYTES};
+pub use compact::Compactor;
 pub use error::HeapError;
+pub use gc::{Collector, GcState};
 pub use object::ObjRef;
 pub use shape::{Shape, ShapeId};
 pub use stats::HeapStats;

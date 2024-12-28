@@ -72,4 +72,4 @@ This is the only web artifact builder. It writes a portable relative-path `dist/
 
 ---
 
-**Version:** v0.1.4
+**Version:** v0.1.5
