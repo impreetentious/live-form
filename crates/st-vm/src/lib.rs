@@ -2,13 +2,28 @@
 
 mod budget;
 #[allow(dead_code)]
+mod builtins;
+#[allow(dead_code)]
 mod error;
+#[allow(dead_code)]
+mod fiber;
 mod host;
+#[allow(dead_code)]
+mod interp;
 mod numeric;
+#[allow(dead_code)]
+mod registry;
 mod report;
+#[allow(dead_code)]
+mod roots;
+#[allow(dead_code)]
+mod sched;
+#[allow(dead_code)]
+mod services;
 
 pub use budget::Budget;
 pub use error::{BuildError, HostError, UpdateError, VmError};
+pub use fiber::FiberId;
 pub use host::{DrawCmd, Host};
 pub use numeric::{cos, floor, sin, sqrt};
 pub use report::{FrameReport, UpdateReport};
