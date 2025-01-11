@@ -68,8 +68,8 @@ This is the only web artifact builder. It writes a portable relative-path `dist/
 
 ## License
 
-[Apache-2.0](LICENSE) © 2024 Sidakpreet Singh
+[Apache-2.0](LICENSE) © 2024-2025 Sidakpreet Singh
 
 ---
 
-**Version:** v0.1.7
+**Version:** v0.1.8
