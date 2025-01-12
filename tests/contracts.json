@@ -1,0 +1,76 @@
+{
+  "contracts": [
+    {
+      "id": "p0-syntax-smoke",
+      "phase": 0,
+      "specSection": "A",
+      "testPath": "crates/st-syntax/src/lib.rs",
+      "testName": "smoke",
+      "kind": "unit"
+    },
+    {
+      "id": "p0-bytecode-smoke",
+      "phase": 0,
+      "specSection": "A.7",
+      "testPath": "crates/st-bytecode/src/lib.rs",
+      "testName": "smoke",
+      "kind": "unit"
+    },
+    {
+      "id": "p0-heap-smoke",
+      "phase": 0,
+      "specSection": "B.1",
+      "testPath": "crates/st-heap/src/lib.rs",
+      "testName": "smoke",
+      "kind": "unit"
+    },
+    {
+      "id": "p0-vm-smoke",
+      "phase": 0,
+      "specSection": "9",
+      "testPath": "crates/st-vm/src/lib.rs",
+      "testName": "smoke",
+      "kind": "unit"
+    },
+    {
+      "id": "p0-cli-help",
+      "phase": 0,
+      "specSection": "E.3",
+      "testPath": "crates/st-cli/tests/help.rs",
+      "testName": "help_lists_commands_and_flags",
+      "kind": "unit"
+    },
+    {
+      "id": "p0-web-smoke",
+      "phase": 0,
+      "specSection": "F",
+      "testPath": "crates/st-web/src/lib.rs",
+      "testName": "smoke",
+      "kind": "unit"
+    },
+    {
+      "id": "p0-hello-fixture",
+      "phase": 0,
+      "specSection": "E",
+      "testPath": "examples/hello.stitch",
+      "testName": "fixture present",
+      "kind": "unit"
+    },
+    {
+      "id": "p1-corpus-000-019",
+      "phase": 1,
+      "specSection": "A",
+      "testPath": "tests/corpus",
+      "testName": "000-019",
+      "kind": "pending"
+    },
+    {
+      "id": "p10-e2e-home",
+      "phase": 10,
+      "specSection": "F",
+      "testPath": "web/e2e/smoke.spec.js",
+      "testName": "home heading",
+      "kind": "pending"
+    }
+  ]
+}
