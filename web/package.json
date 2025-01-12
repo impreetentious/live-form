@@ -1,6 +1,6 @@
 {
   "name": "live-form-web",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "private": true,
   "description": "Liveform Colony browser shell.",
   "license": "Apache-2.0",
