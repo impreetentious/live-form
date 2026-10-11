@@ -29,7 +29,7 @@ No JIT, native threads, generational GC, package system, saved heaps, Windows-na
 
 ## Stack
 
-Rust `1.83.0` (edition 2021) · `libm` for portable VM math · wasm-bindgen · Node `22.12.0` for web tooling · Playwright (Chromium, Firefox, WebKit). Native hosts: macOS arm64 and Linux x86_64.
+Rust `1.98.0` (edition 2021) · `libm` for portable VM math · wasm-bindgen · Node `22.23.3` for web tooling · Playwright (Chromium, Firefox, WebKit). Native hosts: macOS arm64 and Linux x86_64.
 
 ## Project docs
 
@@ -39,7 +39,7 @@ Rust `1.83.0` (edition 2021) · `libm` for portable VM math · wasm-bindgen · N
 
 ## Run locally
 
-Requires rustup (Rust `1.83.0`) and Node `22.12.0` (see `.nvmrc` and `rust-toolchain.toml`).
+Requires rustup (Rust `1.98.0`) and Node `22.23.3` (see `.nvmrc` and `rust-toolchain.toml`).
 
 ```sh
 ./scripts/setup.sh
@@ -72,4 +72,4 @@ This is the only web artifact builder. It writes a portable relative-path `dist/
 
 ---
 
-**Version:** v0.1.11
+**Version:** v0.1.12

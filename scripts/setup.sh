@@ -3,7 +3,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-need_node="22.12.0"
+need_node="22.23.3"
 have_node="$(node -v 2>/dev/null | sed 's/^v//')"
 if [[ "$have_node" != "$need_node" ]]; then
   echo "Need Node $need_node (see .nvmrc). Have: ${have_node:-none}" >&2

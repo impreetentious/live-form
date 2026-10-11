@@ -59,12 +59,12 @@ if (existsSync(path.join(root, "crates/st-cli/src/main.rs"))) {
 
 if (existsSync(path.join(root, ".nvmrc"))) {
   const nvm = read(".nvmrc").trim();
-  if (nvm !== "22.12.0") errors.push(`.nvmrc ${nvm} != 22.12.0`);
+  if (nvm !== "22.23.3") errors.push(`.nvmrc ${nvm} != 22.23.3`);
 }
 
 if (existsSync(path.join(root, "rust-toolchain.toml"))) {
   const channel = read("rust-toolchain.toml").match(/channel\s*=\s*"([^"]+)"/)?.[1];
-  if (channel !== "1.83.0") errors.push(`rust-toolchain.toml ${channel ?? "missing"} != 1.83.0`);
+  if (channel !== "1.98.0") errors.push(`rust-toolchain.toml ${channel ?? "missing"} != 1.98.0`);
 }
 
 if (errors.length) {

@@ -10,24 +10,24 @@ members = [
 ]
 
 [workspace.package]
-version = "0.1.11"
+version = "0.1.12"
 authors = ["Sidakpreet Singh"]
 edition = "2021"
 license = "Apache-2.0"
 publish = false
-rust-version = "1.83"
+rust-version = "1.98"
 
 [workspace.dependencies]
-clap = { version = "=4.5.23", features = ["derive"] }
-console_log = "=1.0.0"
-env_logger = "=0.11.6"
-js-sys = "=0.3.76"
-libm = { version = "=0.2.11", default-features = false }
-log = "=0.4.22"
-serde = { version = "=1.0.216", features = ["derive"] }
-serde_json = "=1.0.133"
-thiserror = "=2.0.8"
-wasm-bindgen = "=0.2.99"
+clap = { version = "=4.6.7", features = ["derive"] }
+console_log = "=1.1.0"
+env_logger = "=0.11.11"
+js-sys = "=0.3.106"
+libm = { version = "=0.2.16", default-features = false }
+log = "=0.4.34"
+serde = { version = "=1.0.229", features = ["derive"] }
+serde_json = "=1.0.151"
+thiserror = "=2.0.21"
+wasm-bindgen = "=0.2.129"
 
 [workspace.lints.rust]
 unsafe_code = "deny"
